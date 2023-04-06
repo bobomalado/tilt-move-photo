@@ -1,0 +1,41 @@
+img {
+  width: 250px;
+  height: 350px;
+  margin: 0px;
+  padding: 0px;
+  transform-style: preserve-3d;
+  border-radius: 20px;
+  cursor: pointer;
+  perspective: 1000px;
+  transform: translateZ(50px);
+}
+div {
+  border: solid;
+  margin: 30px;
+  display: inline-block;
+}
+p {
+  text-align: center;
+  color: white;
+  size: 30;
+  font-family: Arial, Helvetica, sans-serif;
+  background: teal;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.carte-move {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(189, 192, 195);
+}
